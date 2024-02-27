@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <parameter name="url" value="http://leaftaps.com/opentaps/control/login"/>
+  <test thread-count="5" name="Test(failed)" verbose="5">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestNGPractice.DuplicateLead">
+        <methods>
+          <include name="runDuplicateLead"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestNGPractice.DuplicateLead -->
+      <class name="TestNGPractice.CreateLead">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="runCreateLead"/>
+        </methods>
+      </class> <!-- TestNGPractice.CreateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
