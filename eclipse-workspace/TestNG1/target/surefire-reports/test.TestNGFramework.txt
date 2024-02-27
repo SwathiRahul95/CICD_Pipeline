@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: test.TestNGFramework
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 3.847 s <<< FAILURE! - in test.TestNGFramework
+LaunchBrowser(test.TestNGFramework)  Time elapsed: 3.782 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by @Configuration on method LaunchBrowser
+but has not been marked @Optional or defined 
+
+LaunchBrowser(test.TestNGFramework)  Time elapsed: 3.783 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by @Configuration on method LaunchBrowser
+but has not been marked @Optional or defined 
+
